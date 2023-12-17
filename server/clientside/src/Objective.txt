@@ -1,0 +1,7 @@
+ONLINE EXAM PORTAL
+
+                                            Exam Creation and Management
+                                    ---------------------------------------------
+1. Enable exams with various question formats (multiple-choice, true/false, short answer etc)                
+2. Implement a scheduling system for setting exam dates and times.
+3. Display the results instantly upon completion of the exam.

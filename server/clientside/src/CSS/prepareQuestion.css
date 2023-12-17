@@ -1,0 +1,53 @@
+.exam__format{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+.exam__format #header{
+    width: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+}
+.exam__format #header header{
+    font-size: 16pt;
+    text-decoration: underline;
+    -webkit-text-stroke: .6pt black;
+}
+.exam__format .select{
+    display: flex;
+}
+.exam__format .select select{
+    margin-right: 5px;
+    border-radius: 5px;    
+    text-align: center;
+    width: fit-content;
+}
+.exam__format .questions{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+}
+.exam__format .questions .marks10 .marks10-box .question,
+.exam__format .questions .mcq .mcq-box .question{
+    margin-top: 15px;
+}
+.exam__format .questions .mcq .mcq-box .question .options {
+    display: flex;
+}
+.exam__format .questions .mcq .mcq-box .question .options div.option{
+display: flex;
+flex-direction: column;
+margin-right: 30px;
+}
+.exam__format button{
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+}

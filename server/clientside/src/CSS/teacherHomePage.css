@@ -1,0 +1,38 @@
+.teacher__hp__wrappper{
+    width: 100%;
+    height: 98dvh;
+    display: flex;
+    justify-content: center;
+    padding-top: 2dvh;
+}
+.teacher__hp__wrappper #teacher__hp__box{
+    width: 500px;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.teacher__hp__wrappper #teacher__hp__box .tinfo{
+    display: flex;
+    margin-bottom: 10px;
+}
+.teacher__hp__wrappper #teacher__hp__box .teacher__info__box .tinfo div.sub{
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 3px;
+    margin-right: 5px;
+}
+.teacher__hp__wrappper #teacher__hp__box .prepare__question div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3px;
+}
+.teacher__hp__wrappper #teacher__hp__box button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 3px;
+    cursor: pointer;
+}

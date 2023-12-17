@@ -1,0 +1,108 @@
+.student__exam__format {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100dvh;
+    max-height: fit-content;
+    margin-top: 10px;
+}
+
+.student__exam__format div#header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.student__exam__format header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    -webkit-text-stroke: .6pt black;
+    text-decoration: underline;
+}
+
+/*-------------------------------------------STUDENT HEADER-------------------------------------------------*/
+.student__exam__format .basic__info{
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.33);
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.student__exam__format .basic__info .left,
+.student__exam__format .basic__info .right{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.student__exam__format .basic__info .left div,
+.student__exam__format .basic__info .right div{
+    display: flex;
+}
+.student__exam__format .basic__info .left div p:first-child,
+.student__exam__format .basic__info .right div p:first-child{
+    -webkit-text-stroke: .4pt black;
+}
+/*-------------------------------------------END OF STUDENT HEADER------------------------------------------*/
+
+/*-------------------------------------------QUESTION SECTION-----------------------------------------------*/
+.student__exam__format .questions{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.student__exam__format .questions div.marks10{
+    -webkit-text-stroke: .3pt black;
+    padding: 10px;
+}
+.student__exam__format .questions div.marks10 .question,
+.student__exam__format .questions div.mcq .question{
+    margin-top: 10px;
+}
+.student__exam__format .questions input{
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid black;
+    letter-spacing: .8pt;
+    font-size: 12pt;
+    -webkit-text-stroke: .4pt black;
+}
+
+/*======================MCQ===================*/
+.student__exam__format .questions .mcq div.options{
+    display: flex;
+}
+.student__exam__format .questions .mcq div.options div.option{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+}
+.student__exam__format .questions .mcq div.options div.option div{
+    display: flex;
+}
+.student__exam__format .questions .mcq div.options div span label,
+.student__exam__format .questions .mcq div.options div span input{
+    cursor: pointer;
+}
+/*======================END OF MCQ============*/
+.student__exam__format #btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.student__exam__format #btn button{
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    font-size: 12pt;
+}
+/*-------------------------------------------END OF QUESTION SECTION----------------------------------------*/

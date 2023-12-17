@@ -1,0 +1,52 @@
+.showExams{
+    display: flex;
+    justify-content: center;
+}
+.showExams div{
+    display: flex;
+    justify-content: center;
+    margin-top: .3%;
+    min-width: 600px;
+    width: fit-content;
+    min-height: fit-content;
+    max-height: 93%;
+    margin-left: .8%;
+    background-color: #0e72ff;
+
+    border: 2px solid rgb(6, 6, 6);
+    border-radius: 1.5vw;
+}
+.showExams table{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px hidden black;
+}
+.showExams table thead {
+    border-bottom: 2px solid black;
+}
+.showExams table thead th,
+.showExams table tbody td{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 1% 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    line-height: 5vh;
+    font-size: 15pt;
+}
+.showExams table tbody td{
+    padding: .1%;
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 13pt;
+}
+.showExams table tbody td button{
+    width: 100px;
+    height: 30px;
+    background-color: #83db12;
+    color: black;
+    -webkit-text-stroke: .6pt black;
+    border-radius: 15px;
+    cursor: pointer;
+}
